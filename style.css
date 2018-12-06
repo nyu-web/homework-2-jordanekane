@@ -1,3 +1,68 @@
+@font-face {
+  font-family: 'Bodoni 72', serif;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
 h1 {
-  color: red;
+  color: darksalmon;
+  font-size: 3rem;
+  line-height: 60%;
+}
+
+h2 {
+  color: maroon;
+  font-size: 1.5rem;
+  line-height: 30%;
+
+}
+
+h3 {
+  color: darksalmon;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+}
+
+ul li {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 0 .25rem;
+  /*align-self: center;*/
+}
+
+a:link {
+  color: darkgray;
+  font-size: 20px;
+}
+
+a:visited {
+  color: lightslategray;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  width: 70%;
 }
